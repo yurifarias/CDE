@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CDE</string>
+    <string name="title_activity_resultados">ResultadosActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_calcular">Calcular</string>
+
+    <string-array name="main_tab">
+        <item>INÍCIO</item>
+        <item>ESTACAS</item>
+        <item>CARGAS</item>
+        <item>LOCAÇÃO</item>
+    </string-array>
+
+    <string name="titulo_inicio">Bem vindo ao CDE</string>
+
+    <string name="titulo_inicio_objetivo">Objetivo</string>
+    <string name="corpo_inicio_objetivo">Calcular esforços normais em estacas e deslocamento elástico do bloco de coroamento.</string>
+
+    <string name="titulo_inicio_consideracoes">Considerações</string>
+    <string name="corpo_inicio_consideracoes">O cálculo de estaqueamento baseia-se no método elástico de Schiel, sustentado por três hipóteses de cálculo:
+    \n - Bloco infinitamento rígido;
+    \n - Estacas rotuladas no seu topo e na sua ponta;
+    \n - Reações proporcionais ao deslocamento do topo das estacas.</string>
+
+    <string name="titulo_inicio_instrucoes">Instruções</string>
+    <string name="corpo_inicio_instrucoes">Para realizar o cálculo, siga os passos:
+    \n - Na aba <b>ESTACAS</b>, insira os dados referente a rigidez das estacas e clique no botão "<b>CONFIRMAR</b>";
+    \n - Na aba <b>CARGAS</b>, insira os valores das componentes do esforço proveniente do pilar e clique no botão "<b>CONFIRMAR</b>";
+    \n - Na aba <b>LOCAÇÃO</b>, defina as posições da cabeça de cada estaca em relação ao sistema de coordenadas global, juntamente com os ângulos caso a estaca esteja inclinada, em seguida clique no botão "<b>CONFIRMAR</b>";
+    \n - Por fim, após confirmados todos o dados de entrada, clique no botão localizado no canto superior a direita e assim será levado aos resultados.</string>
+
+    <string-array name="item_fck">
+        <item></item>
+        <item>C20</item>
+        <item>C25</item>
+        <item>C30</item>
+        <item>C35</item>
+        <item>C40</item>
+        <item>C45</item>
+        <item>C50</item>
+    </string-array>
+
+    <string-array name="resultados_tab">
+        <item>RESUMO</item>
+        <item>REAÇÕES NORMAIS</item>
+        <item>DESLOCAMENTOS</item>
+    </string-array>
+</resources>
